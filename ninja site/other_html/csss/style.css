@@ -1,0 +1,119 @@
+/* Start Global Rules */
+*{
+    --main-color: #27023AFC;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-color:  #322435;
+    height: 100vh;
+}
+.container{
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: rgba(197, 192, 192, 0.863);
+}
+/* end of Global Rules */
+
+/* start of media query */
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+/* Medium */
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+/* Large */
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+/* end of media query */
+/* general css */
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 50%;
+    color: rgb(230, 230, 216);
+    justify-content: space-between;
+}
+form .Header{
+    font-size: x-large;
+    font-weight: bolder;
+}
+form .container{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    width: 80%;
+}
+form .container input.input{
+    flex: 1;
+    padding: 15px;
+    margin: 20px 0;
+    width: 100%;
+    background-color: #27023AFC;
+    border: 2px solid;
+    border-radius: 10px;
+    box-shadow: 0px 0px 9px 4px grey;
+    color: #27023AFC;
+}
+form .container input.check-box{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    accent-color: yellow ;
+
+}   
+form .container button{
+    background-color: yellow;
+    padding: 15px;
+    color: black;
+    margin: 15px 0;
+    border-radius: 20px;
+    box-shadow: 0px 0px 9px 1px grey;
+    font-weight: bold;
+}
+form .container .Forgot-password{
+    margin-left: 50%;
+}
+form .container div{
+    margin-left: auto;
+    margin-right: auto;
+    color: rgb(230, 230, 216);
+}
+form .container div a{
+    margin-left: 5px;
+    font-weight: bold;
+    color: yellow;
+}
+form .container .checkbox{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+form .container .checkbox span{
+    font-weight: bold;
+    color: yellow;
+}
+
